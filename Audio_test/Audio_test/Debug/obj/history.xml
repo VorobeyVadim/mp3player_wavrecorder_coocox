@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -g2 -w -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\cmsis -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\cmsis_boot -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_mp3 -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_mp3\lib\helix\real -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\cmsis_lib -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_audio -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_mp3\lib\helix\pub -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_mp3\lib -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\cmsis_lib\include -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\STM32F4-Discovery -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_audio\inc -I..\..\..\..\..\..\..\..\..\Work\STM32F4DIS_SECOND\Audio_test(1)CooCox\Audio_test\lib_mp3\lib\helix">
+      <target file="syscalls.o" lastModified="15d939a9646">
+         <source file="..\..\..\syscalls.c" lastModified="15d935efcef"/>
+      </target>
+      <target file="scalfact.o" lastModified="15d939a62dc">
+         <source file="..\..\..\lib_mp3\lib\helix\real\scalfact.c" lastModified="14198a9efc8"/>
+      </target>
+      <target file="usbh_usr.o" lastModified="15d939a9834">
+         <source file="..\..\..\lib_audio\src\usbh_usr.c" lastModified="1434a30f0f0"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="15d939a76d2">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="144b3549220"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="15d939a717e">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_audio_codec.c" lastModified="144b3549220"/>
+      </target>
+      <target file="misc.o" lastModified="15d939aad2c">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="144b154f190"/>
+      </target>
+      <target file="waveplayer.o" lastModified="15d939a812a">
+         <source file="..\..\..\lib_audio\src\waveplayer.c" lastModified="15d2dcfb81c"/>
+      </target>
+      <target file="imdct.o" lastModified="15d939a6ec8">
+         <source file="..\..\..\lib_mp3\lib\helix\real\imdct.c" lastModified="14198a9efd9"/>
+      </target>
+      <target file="dequant.o" lastModified="15d939a682c">
+         <source file="..\..\..\lib_mp3\lib\helix\real\dequant.c" lastModified="14198a9efa5"/>
+      </target>
+      <target file="polyphase.o" lastModified="15d939ab09c">
+         <source file="..\..\..\lib_mp3\lib\helix\real\polyphase.c" lastModified="14198a9efb3"/>
+      </target>
+      <target file="Audio.o" lastModified="15d939aaebc">
+         <source file="..\..\..\lib_mp3\Audio.c" lastModified="15d0252a732"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15d939ab4f4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="144b154f190"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="15d939aabd8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="144b154e9c0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15d939a9404">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="144b154e9c0"/>
+      </target>
+      <target file="audio_sample.o" lastModified="15d939a931e">
+         <source file="..\..\..\lib_audio\src\audio_sample.c" lastModified="1434a35fa00"/>
+      </target>
+      <target file="fattime.o" lastModified="15d939ab0d8">
+         <source file="..\..\..\lib_audio\src\fattime.c" lastModified="1434a2a49d0"/>
+      </target>
+      <target file="usbh_msc_fatfs.o" lastModified="15d939aa7b2">
+         <source file="..\..\..\lib_audio\src\usbh_msc_fatfs.c" lastModified="144d06cc850"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="15d939a9910">
+         <source file="..\..\..\lib_audio\src\usb_bsp.c" lastModified="1434a31fa90"/>
+      </target>
+      <target file="mp3tabs.o" lastModified="15d939a748c">
+         <source file="..\..\..\lib_mp3\lib\helix\mp3tabs.c" lastModified="14198a9ef4a"/>
+      </target>
+      <target file="usbh_msc_scsi.o" lastModified="15d939a950c">
+         <source file="..\..\..\lib_audio\src\usbh_msc_scsi.c" lastModified="1434a326fc0"/>
+      </target>
+      <target file="huffman.o" lastModified="15d939a9bd8">
+         <source file="..\..\..\lib_mp3\lib\helix\real\huffman.c" lastModified="14198a9efd5"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15d939a7356">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="144b154f190"/>
+      </target>
+      <target file="buffers.o" lastModified="15d939a9c96">
+         <source file="..\..\..\lib_mp3\lib\helix\real\buffers.c" lastModified="14198a9efaa"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15d939a7adc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="144b154e9c0"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="15d939a755e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="144b35499f0"/>
+      </target>
+      <target file="bitstream.o" lastModified="15d939a678c">
+         <source file="..\..\..\lib_mp3\lib\helix\real\bitstream.c" lastModified="14198a9efd1"/>
+      </target>
+      <target file="usb_hcd.o" lastModified="15d939aa60e">
+         <source file="..\..\..\lib_audio\src\usb_hcd.c" lastModified="1434a303570"/>
+      </target>
+      <target file="dct32.o" lastModified="15d939aaa14">
+         <source file="..\..\..\lib_mp3\lib\helix\real\dct32.c" lastModified="14198a9efbb"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="15d939a7e82">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="144b154f190"/>
+      </target>
+      <target file="mp3dec.o" lastModified="15d939a77ea">
+         <source file="..\..\..\lib_mp3\lib\helix\mp3dec.c" lastModified="14198a9ef4e"/>
+      </target>
+      <target file="trigtabs_fixpt.o" lastModified="15d939a9c1e">
+         <source file="..\..\..\lib_mp3\lib\helix\real\trigtabs_fixpt.c" lastModified="14198a9efcc"/>
+      </target>
+      <target file="usb_hcd_int.o" lastModified="15d939ab620">
+         <source file="..\..\..\lib_audio\src\usb_hcd_int.c" lastModified="1434a327f60"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15d939a7626">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="144b1519e00"/>
+      </target>
+      <target file="dqchan.o" lastModified="15d939a615e">
+         <source file="..\..\..\lib_mp3\lib\helix\real\dqchan.c" lastModified="14198a9efc4"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15d939a9742">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="144b154f190"/>
+      </target>
+      <target file="usbh_msc_bot.o" lastModified="15d939aa6f4">
+         <source file="..\..\..\lib_audio\src\usbh_msc_bot.c" lastModified="1434a325080"/>
+      </target>
+      <target file="hufftabs.o" lastModified="15d939a68e4">
+         <source file="..\..\..\lib_mp3\lib\helix\real\hufftabs.c" lastModified="14198a9efe3"/>
+      </target>
+      <target file="usbh_stdreq.o" lastModified="15d939a7446">
+         <source file="..\..\..\lib_audio\src\usbh_stdreq.c" lastModified="1434a3248b0"/>
+      </target>
+      <target file="waverecorder.o" lastModified="15d939a7c46">
+         <source file="..\..\..\lib_audio\src\waverecorder.c" lastModified="1434a322970"/>
+      </target>
+      <target file="usbh_core.o" lastModified="15d939a8262">
+         <source file="..\..\..\lib_audio\src\usbh_core.c" lastModified="1434a328f00"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="15d939a63c2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="144b154f190"/>
+      </target>
+      <target file="stproc.o" lastModified="15d939a9a63">
+         <source file="..\..\..\lib_mp3\lib\helix\real\stproc.c" lastModified="14198a9efb7"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="15d939a7d54">
+         <source file="..\..\..\lib_audio\src\stm32f4xx_it.c" lastModified="144c20ad630"/>
+      </target>
+      <target file="usb_core.o" lastModified="15d939a6082">
+         <source file="..\..\..\lib_audio\src\usb_core.c" lastModified="1434a338130"/>
+      </target>
+      <target file="subband.o" lastModified="15d939a75d6">
+         <source file="..\..\..\lib_mp3\lib\helix\real\subband.c" lastModified="14198a9efa1"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="15d939aab38">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="144b154f190"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15d939a5e82">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="144b154f190"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15d939aa8ac">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="144b154e9c0"/>
+      </target>
+      <target file="ff.o" lastModified="15d939aa55a">
+         <source file="..\..\..\cmsis_lib\source\ff.c" lastModified="144d0189d70"/>
+      </target>
+      <target file="main.o" lastModified="15d939a7990">
+         <source file="..\..\..\main.c" lastModified="15d939a5a76"/>
+      </target>
+      <target file="usbh_ioreq.o" lastModified="15d939aac96">
+         <source file="..\..\..\lib_audio\src\usbh_ioreq.c" lastModified="1434a316620"/>
+      </target>
+      <target file="usbh_msc_core.o" lastModified="15d939a7f86">
+         <source file="..\..\..\lib_audio\src\usbh_msc_core.c" lastModified="1434a3221a0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15d939a95c3">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="144d17343a0"/>
+      </target>
+      <target file="usbh_hcs.o" lastModified="15d939a7232">
+         <source file="..\..\..\lib_audio\src\usbh_hcs.c" lastModified="1434a303570"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="15d939ab27c">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lis302dl.c" lastModified="144b3549220"/>
+      </target>
+   </processor>
+</history>
